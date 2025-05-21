@@ -1,0 +1,77 @@
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.slider {
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img-container {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+}
+
+.pr-img {
+    object-fit: cover;
+}
+
+.btn {
+    /* position: absolute; */
+    top: 50%;
+    /* transform: translateY(-50%); */
+    color: white;
+    font-size: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.btn btn-success {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.nav-item .btn-success {
+    font-size: 20px;
+    /* Text chhota ho jayega */
+    padding: 6px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* Button ka andar ka space kam ho jayega */
+    line-height: 1.9;
+    /* Text aur button ki height tight ho jayegi */
+}
+
+.custom-navbar {
+    background-color: #ff6600;
+    /* your custom color */
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+    color: white;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffe0b3;
+}
+
+#navMenu {
+    justify-content: space-between
+}
